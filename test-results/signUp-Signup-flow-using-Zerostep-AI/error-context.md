@@ -1,0 +1,361 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for practice automation" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for practice automation" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - heading "Enter Account Information" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Title
+          - generic [ref=e47]:
+            - radio "Mr." [checked] [ref=e49]
+            - text: Mr.
+          - generic [ref=e51]:
+            - radio "Mrs." [ref=e53]
+            - text: Mrs.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - text: Name
+            - superscript [ref=e56]: "*"
+          - textbox "Name *" [ref=e57]: Prashant G
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - text: Email
+            - superscript [ref=e60]: "*"
+          - textbox "Email *" [disabled] [ref=e61]: prashantg07@gmail.com
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - text: Password
+            - superscript [ref=e64]: "*"
+          - textbox "Password *" [ref=e65]: Password123!
+        - generic [ref=e66]:
+          - generic [ref=e67]: Date of Birth
+          - generic [ref=e68]:
+            - combobox [ref=e71]:
+              - option "Day"
+              - option "1"
+              - option "2"
+              - option "3"
+              - option "4"
+              - option "5"
+              - option "6"
+              - option "7"
+              - option "8"
+              - option "9"
+              - option "10"
+              - option "11"
+              - option "12" [selected]
+              - option "13"
+              - option "14"
+              - option "15"
+              - option "16"
+              - option "17"
+              - option "18"
+              - option "19"
+              - option "20"
+              - option "21"
+              - option "22"
+              - option "23"
+              - option "24"
+              - option "25"
+              - option "26"
+              - option "27"
+              - option "28"
+              - option "29"
+              - option "30"
+              - option "31"
+            - combobox [ref=e74]:
+              - option "Month" [selected]
+              - option "January"
+              - option "February"
+              - option "March"
+              - option "April"
+              - option "May"
+              - option "June"
+              - option "July"
+              - option "August"
+              - option "September"
+              - option "October"
+              - option "November"
+              - option "December"
+            - combobox [ref=e77]:
+              - option "Year"
+              - option "2021"
+              - option "2020"
+              - option "2019"
+              - option "2018"
+              - option "2017"
+              - option "2016"
+              - option "2015"
+              - option "2014"
+              - option "2013"
+              - option "2012"
+              - option "2011"
+              - option "2010"
+              - option "2009"
+              - option "2008"
+              - option "2007"
+              - option "2006"
+              - option "2005"
+              - option "2004"
+              - option "2003"
+              - option "2002"
+              - option "2001"
+              - option "2000"
+              - option "1999"
+              - option "1998"
+              - option "1997" [selected]
+              - option "1996"
+              - option "1995"
+              - option "1994"
+              - option "1993"
+              - option "1992"
+              - option "1991"
+              - option "1990"
+              - option "1989"
+              - option "1988"
+              - option "1987"
+              - option "1986"
+              - option "1985"
+              - option "1984"
+              - option "1983"
+              - option "1982"
+              - option "1981"
+              - option "1980"
+              - option "1979"
+              - option "1978"
+              - option "1977"
+              - option "1976"
+              - option "1975"
+              - option "1974"
+              - option "1973"
+              - option "1972"
+              - option "1971"
+              - option "1970"
+              - option "1969"
+              - option "1968"
+              - option "1967"
+              - option "1966"
+              - option "1965"
+              - option "1964"
+              - option "1963"
+              - option "1962"
+              - option "1961"
+              - option "1960"
+              - option "1959"
+              - option "1958"
+              - option "1957"
+              - option "1956"
+              - option "1955"
+              - option "1954"
+              - option "1953"
+              - option "1952"
+              - option "1951"
+              - option "1950"
+              - option "1949"
+              - option "1948"
+              - option "1947"
+              - option "1946"
+              - option "1945"
+              - option "1944"
+              - option "1943"
+              - option "1942"
+              - option "1941"
+              - option "1940"
+              - option "1939"
+              - option "1938"
+              - option "1937"
+              - option "1936"
+              - option "1935"
+              - option "1934"
+              - option "1933"
+              - option "1932"
+              - option "1931"
+              - option "1930"
+              - option "1929"
+              - option "1928"
+              - option "1927"
+              - option "1926"
+              - option "1925"
+              - option "1924"
+              - option "1923"
+              - option "1922"
+              - option "1921"
+              - option "1920"
+              - option "1919"
+              - option "1918"
+              - option "1917"
+              - option "1916"
+              - option "1915"
+              - option "1914"
+              - option "1913"
+              - option "1912"
+              - option "1911"
+              - option "1910"
+              - option "1909"
+              - option "1908"
+              - option "1907"
+              - option "1906"
+              - option "1905"
+              - option "1904"
+              - option "1903"
+              - option "1902"
+              - option "1901"
+              - option "1900"
+        - generic [ref=e78]:
+          - checkbox "Sign up for our newsletter!" [ref=e79]
+          - text: Sign up for our newsletter!
+        - generic [ref=e80]:
+          - checkbox "Receive special offers from our partners!" [checked] [ref=e81]
+          - text: Receive special offers from our partners!
+        - heading "Address Information" [level=2] [ref=e82]
+        - paragraph [ref=e83]:
+          - generic [ref=e84]:
+            - text: First name
+            - superscript [ref=e85]: "*"
+          - textbox "First name *" [ref=e86]: Prashant
+        - paragraph [ref=e87]:
+          - generic [ref=e88]:
+            - text: Last name
+            - superscript [ref=e89]: "*"
+          - textbox "Last name *" [ref=e90]: G
+        - paragraph [ref=e91]:
+          - generic [ref=e92]: Company
+          - textbox "Company" [ref=e93]: AXSOS Academy
+        - paragraph [ref=e94]:
+          - generic [ref=e95]:
+            - text: Address
+            - superscript [ref=e96]: "*"
+            - text: (Street address, P.O. Box, Company name, etc.)
+          - textbox "Address * (Street address, P.O. Box, Company name, etc.)" [ref=e97]: Hinjewadi Phase 1
+        - paragraph [ref=e98]:
+          - generic [ref=e99]: Address 2
+          - textbox "Address 2" [ref=e100]
+        - paragraph [ref=e101]:
+          - generic [ref=e102]:
+            - text: Country
+            - superscript [ref=e103]: "*"
+          - combobox "Country *" [ref=e104]:
+            - option "India" [selected]
+            - option "United States"
+            - option "Canada"
+            - option "Australia"
+            - option "Israel"
+            - option "New Zealand"
+            - option "Singapore"
+        - paragraph [ref=e105]:
+          - generic [ref=e106]:
+            - text: State
+            - superscript [ref=e107]: "*"
+          - textbox "State *" [ref=e108]: MH
+        - paragraph [ref=e109]:
+          - generic [ref=e110]:
+            - text: City
+            - superscript [ref=e111]: "*"
+          - textbox "City * Zipcode *" [ref=e112]: Pune
+        - paragraph [ref=e113]:
+          - generic [ref=e114]:
+            - text: Zipcode
+            - superscript [ref=e115]: "*"
+          - textbox [ref=e116]: "009070"
+        - paragraph [ref=e117]:
+          - generic [ref=e118]:
+            - text: Mobile Number
+            - superscript [ref=e119]: "*"
+          - textbox "Mobile Number *" [active] [ref=e120]
+        - button "Create Account" [ref=e121] [cursor=pointer]
+    - generic:
+      - insertion:
+        - generic:
+          - iframe
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - contentinfo [ref=e122]:
+    - generic:
+      - insertion:
+        - generic:
+          - iframe
+    - generic [ref=e124]:
+      - generic [ref=e127]:
+        - heading "Subscription" [level=2] [ref=e128]
+        - generic [ref=e129]:
+          - textbox "Your email address" [ref=e130]
+          - button "" [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]: 
+          - paragraph [ref=e133]:
+            - text: Get the most recent updates from
+            - text: our site and be updated your self...
+      - generic:
+        - insertion:
+          - generic:
+            - iframe
+    - paragraph [ref=e137]: Copyright © 2021 All rights reserved
+  - link "" [ref=e138] [cursor=pointer]:
+    - /url: "#top"
+    - generic [ref=e139]: 
+  - insertion [ref=e140]:
+    - iframe [ref=e143]:
+      - iframe [ref=f27e1]:
+        - generic [ref=f31e2]:
+          - link "Advertisement" [ref=f31e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsuRg2XyxFOB0icaIckk2I42J2WtR87dNPTB7biMjqX6alr9t48t-t56vYtdpBc4_41WqYstB2lt5hpJcRxfM3QdiEwdPZT7z2nkRzuPOxALyH0VP4_be_zDzSx8-PTp7bCicBhCYxS3TpH5AHzs_nGA9OK9JZwA1zzJ3hGPkAhjpk6jF9hy3lzD_wRr2dUATHWexU-1IiKtd0ubQgbh01QeXmGC8XJ4jKBV3I6r3Qc6JxT_qOc2oZO2FjnzI-9LTLKmq4rIq-Mfa_hJSDpm5YpH3ubKDbd6M8emEgX3OXupCHjDVGCMsqywxHgVapTafmkYqoOkVXF3KkYZrGrF1qAAUgHUJ2dKbrhY_60RDHvgiAf5-d6t-PNI4aqtE56QeqzVoLr1lyeOaDtvFCcmv4ysgEc9ab-OvStwfTvle0SkMuGIK6mSDzEmESdmXxk9tZ19Kw5FmEfGpafsY47030RMaOvXWfmU5COQOnJog5rJtVcQgBaHduI_Qb8jolyuqEygkIiXNXXEgtUSpVAJ1camIw2lIVlmwc-cUcX4BA2BKRvb3ssxAy520MYqJf9P8qh-5vOnFwReC_jW-NjpmDQWPgxVIcX-y6sXdRYWHhLyeDbrgTtYoV0XGRTHCOSqZzvdvtv51-NsurEotPH2JetsE9gBGz7n2RsY22FdVX1wMeIatlFQxdduEhdLFcpqjidKQx7HcLW479c_1eYV8voQD8Y17Gkg7wpHS60ShZ_Mh5Bm3nyld87PnZJzuWQ3Nh12AK-oG6UrH4KUqdWdItdbjB2qXoOfqOXA46wJKFn_BDh94pfjym64HBrYlIDuRbFNr3Xj6zJZ_h1Gb4_nvzEQjf5muwk_mttd4RXC1TsnIOqpZrdVr_8Hk7qwP_EQJl_BXyZn9mX58UfML8whp6upx8US9L5DmUJb8RZi47USm4UxjMtQyImFKeq0YybRx2ZOAyJw-4Ot1MXxsTNVWxkrhpzuH3OcnPv7zzkYTlIPyoGQWzs3apC7zCed-KdGxIo34Vl4TWrR4_vvJc5W2Rw1gDOEa9whgjeJHDUPmFXQWROzD-MB1-P0Uu79JQ47brZIZ8UdG5E_UOzRms1GNbFsL6PYyQDULy4cko2ss2P2_O269eFYZV5SXltSGcqero5oSApSzrMK4mHJdtBmf7BDeKcn5S6ibnEwsWmq3o4-PYPEPctxinxfi1k8UkA-Q3ST91M7L4k0wbzu2rz5gQ0kssGyUSvMhA-9ZPaHvzasazrGquRo7LqQIscUfqYEj-urLFuaF0HVo2v6F0lLn2yX5ROXyC10hBk-x8ln1iqwHzW5RmudNkEEebYZkC6kMi4qia30TE0upio8uG4twbItEgItJRdm5_Ii-9q-roofcDwpe1t7k6PUSggOXDH9EksgBmKdzm-hg689dXztM37oXmU_D8z_IOqyYed-dmiJmif72BYhqwLmA0sIWrbgK1ZyNR82Irl7LRV8BcM_a5ZyMrIv9BgbXTPuPzZ-DmIRyqOzW26m76egGae_zQlemdMulVavhPY9fLEUI7mcVCd6MYrC49-u2f2MgGJc79IdAMYbDBdL4gUMIsjccrexwY0byRtLxWC-uBM2IWUrn_Uw-YJjcNoekfSvsri6k46Z33fiS9cxdNjpq8xsSffL84XZ2aq1Szq_9rdhD2qRWsXQeUCiO-z9dIA2VSAJ0ZHyDujonxT1q_FsE0-QcXN6momT5KGR5M55M2tdjrqOruK0efxmTAzrk1uv_dcFyNX2Lu0x8GZviSwQb-hFamrfvMa39s106tFkdglufCWQRugzDG3jITO5M1kwWgmf3gTbkArV6hx9wy0By_QcxPErSzcCAeQS429GxBkO-1AS7dL5007shqdud7mI8A&sai=AMfl-YTXbpwaH-zDKCHYm7fhredz_wWrs99JpLC9ZXvUuWh7KLGv3RsHMl6jbKHwkYMAP7FjQy5MAaVko6P0tPnTum1j8nO5MLaR-pdxA986Q1TKksLP9_0IZtg9rBHrKyX1r-RgNiJMPCQYLfMgAKQtRFlL6u-gXi773uJVklff2TSyzxmx-bIrz645VKYzBebxwdg89XYvvxuuoOZHTJni5fDhFx4RtPMkvAVeyycp6ahDTvt82uTMUcPcm--p3g-1eLU825O6EIzbIa4BKLQDY4WBkM8Jtd_Oaybaol4DkyqGD6ejaWFP-w_YPNykm1UZj57axfhEuVsoWhmAHHVCRU-cokvdavNoYIlFjkutzAJt1b-r-lEB7pxqzzXrsqjqBpb9KD_ABT1U7nQHpq4jYQZvbj6jIZVh790IsovnXkiEiFB8aahA_H3YKSTWJkFo_UzWRfAydy65JFux7wYE5irmO3yFrpmAkkPDQXNtPGOnPgMyso_an503LotXY_36EoXNf_stSNJF65yy33MfbPIXqdJseJgqQwmCFB7CMPd6lFhe7COGCRyYSqeAVvC4Djjtal-0CBXhj-9k7LdJz6AzniLWbA&sig=Cg0ArKJSzJwB9VL9rW0F&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly96ZWJyYS5jb20&urlfix=1&nx=364&ny=45&dim=728x90&adurl=https://www.zebra.com/ap/en/cpn/manufacturing-intelligent-operations.html%3Futm_source%3Dprogrammatic%26utm_medium%3Dcpc%26utm_campaign%3DBrand%2BActivation%26tactic_type%3DADE%25C2%25A0%25C2%25A0%26tactic_detail%3DMF%25C2%25A0_AV_AB_BetterBeginsNow_Banner%25C2%25A0%2Ben%25C2%25A0_APAC%25C2%25A0_IN%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23599295690
+            - img "Advertisement" [ref=f31e5]
+          - generic [ref=f31e6]:
+            - generic:
+              - img [ref=f31e10] [cursor=pointer]
+              - button [ref=f31e12] [cursor=pointer]:
+                - img [ref=f31e13]
+```
